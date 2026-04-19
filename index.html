@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Časovničar | Vaš Svet Satova Niš</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold tracking-wider text-gray-900">
+                ČASOVNIČAR<span class="text-blue-600">.</span>
+            </div>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="#" class="hover:text-blue-600 transition">Mehanički</a>
+                <a href="#" class="hover:text-blue-600 transition">Automatski</a>
+                <a href="#" class="hover:text-blue-600 transition">Pametni</a>
+                <a href="#" class="hover:text-blue-600 transition">Quartz</a>
+            </div>
+            <div class="flex space-x-5 items-center">
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#" class="relative">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="absolute -top-2 -right-2 bg-blue-600 text-white text-xs rounded-full px-1.5">0</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="relative bg-gray-900 text-white py-24 px-6">
+        <div class="container mx-auto flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-5xl font-extrabold mb-6 leading-tight">Vreme je za stil koji traje.</h1>
+                <p class="text-lg text-gray-300 mb-8">Od klasičnih mehaničkih remek-dela do najnovijih pametnih satova. Pronađite svoj idealan model u srcu Niša.</p>
+                <a href="#shop" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-md font-semibold transition inline-block">Istraži Kolekciju</a>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <div class="w-72 h-72 bg-gradient-to-tr from-gray-700 to-gray-500 rounded-full flex items-center justify-center shadow-2xl border-4 border-gray-600">
+                    <i class="fa-solid fa-clock text-9xl text-gray-300"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-16 container mx-auto px-6" id="shop">
+        <h2 class="text-3xl font-bold text-center mb-12">Izdvojeni Modeli</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden group">
+                <div class="h-64 bg-gray-200 flex items-center justify-center">
+                    <span class="text-gray-400">Slika Satova</span>
+                </div>
+                <div class="p-6">
+                    <span class="text-xs font-bold text-blue-600 uppercase">Automatski</span>
+                    <h3 class="text-xl font-bold mt-2">Premium Elegance Pro</h3>
+                    <p class="text-gray-600 mt-2">Vrhunski mehanizam sa safirnim staklom.</p>
+                    <div class="flex justify-between items-center mt-6">
+                        <span class="text-2xl font-bold text-gray-900">24.990 RSD</span>
+                        <button class="bg-gray-900 text-white p-2 rounded-full hover:bg-blue-600 transition">
+                            <i class="fa-solid fa-plus px-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden group">
+                <div class="h-64 bg-gray-100 flex items-center justify-center">
+                    <span class="text-gray-400">Slika Satova</span>
+                </div>
+                <div class="p-6">
+                    <span class="text-xs font-bold text-green-600 uppercase">Pametni Sat</span>
+                    <h3 class="text-xl font-bold mt-2">Smart Connect X</h3>
+                    <p class="text-gray-600 mt-2">Pratite zdravlje i obaveštenja u realnom vremenu.</p>
+                    <div class="flex justify-between items-center mt-6">
+                        <span class="text-2xl font-bold text-gray-900">18.500 RSD</span>
+                        <button class="bg-gray-900 text-white p-2 rounded-full hover:bg-blue-600 transition">
+                            <i class="fa-solid fa-plus px-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden group">
+                <div class="h-64 bg-gray-200 flex items-center justify-center">
+                    <span class="text-gray-400">Slika Satova</span>
+                </div>
+                <div class="p-6">
+                    <span class="text-xs font-bold text-amber-600 uppercase">Mehanički</span>
+                    <h3 class="text-xl font-bold mt-2">Heritage Classic</h3>
+                    <p class="text-gray-600 mt-2">Tradicija koja se prenosi generacijama.</p>
+                    <div class="flex justify-between items-center mt-6">
+                        <span class="text-2xl font-bold text-gray-900">32.000 RSD</span>
+                        <button class="bg-gray-900 text-white p-2 rounded-full hover:bg-blue-600 transition">
+                            <i class="fa-solid fa-plus px-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-white border-t py-12">
+        <div class="container mx-auto px-6 text-center">
+            <div class="font-bold text-xl mb-4 uppercase tracking-widest">Časovničar</div>
+            <p class="text-gray-500 text-sm">NIŠ • SRBIJA</p>
+            <div class="flex justify-center space-x-6 mt-6">
+                <a href="#" class="text-gray-400 hover:text-blue-600"><i class="fa-brands fa-instagram text-2xl"></i></a>
+                <a href="#" class="text-gray-400 hover:text-blue-600"><i class="fa-brands fa-facebook text-2xl"></i></a>
+            </div>
+            <p class="mt-8 text-gray-400 text-xs">&copy; 2026 Časovničar. Sva prava zadržana.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
