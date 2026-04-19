@@ -3,118 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Časovničar | Vaš Svet Satova Niš</title>
+    <title>Časovničar | Početna - Premium Satovi</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
 </head>
-<body class="bg-gray-50 text-gray-800 font-sans">
+<body class="bg-[#f0f2f5] text-gray-900 font-sans">
 
-    <nav class="bg-white shadow-md sticky top-0 z-50">
-        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+    <nav class="bg-white/90 backdrop-blur-sm sticky top-0 z-50 border-b border-gray-100">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
             <a href="index.html" class="flex items-center">
-                <img src="logo.png" alt="Časovničar Logo" class="h-12 w-auto">
-                <div class="ml-3 hidden sm:block">
-                    <div class="text-xl font-bold tracking-wider text-gray-900 leading-none">ČASOVNIČAR</div>
-                    <div class="text-[10px] text-gray-500 tracking-[0.2em] uppercase">Niš • Srbija</div>
+                <img src="logo.png" alt="Logo" class="h-10 w-auto">
+                <div class="ml-3">
+                    <div class="text-xl font-extrabold tracking-tighter text-gray-950 leading-none">ČASOVNIČAR</div>
+                    <div class="text-[10px] text-gray-500 uppercase tracking-widest">Niš • Srbija</div>
                 </div>
             </a>
-
-            <div class="hidden md:flex space-x-8 font-medium">
-                <a href="proizvodi.html#ručni" class="hover:text-blue-600 transition text-sm uppercase">Mehanički</a>
-                <a href="proizvodi.html#automatski" class="hover:text-blue-600 transition text-sm uppercase">Automatski</a>
-                <a href="proizvodi.html#pametni" class="hover:text-blue-600 transition text-sm uppercase">Pametni</a>
-                <a href="proizvodi.html#quartz" class="hover:text-blue-600 transition text-sm uppercase">Quartz</a>
+            <div class="hidden md:flex space-x-6 text-sm font-semibold uppercase tracking-wide">
+                <a href="proizvodi.html#ručni" class="hover:text-[#1a365d] transition">Ručni</a>
+                <a href="proizvodi.html#automatski" class="hover:text-[#1a365d] transition">Automatik</a>
+                <a href="proizvodi.html#pametni" class="hover:text-[#1a365d] transition">Smart</a>
+                <a href="proizvodi.html#quartz" class="hover:text-[#1a365d] transition">Quartz</a>
             </div>
-
-            <div class="flex space-x-5 items-center">
-                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                <a href="#" class="relative">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                    <span class="absolute -top-2 -right-2 bg-blue-600 text-white text-xs rounded-full px-1.5 font-bold">0</span>
+            <div class="flex space-x-4 items-center text-gray-700">
+                <a href="#" class="hover:text-[#1a365d]"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#" class="relative hover:text-[#1a365d]">
+                    <i class="fa-solid fa-bag-shopping text-xl"></i>
+                    <span class="absolute -top-2 -right-2 bg-[#1a365d] text-white text-[10px] rounded-full px-1.5 font-bold">0</span>
                 </a>
             </div>
         </div>
     </nav>
 
-    <header class="relative bg-gray-900 text-white py-24 px-6 overflow-hidden">
-        <div class="container mx-auto flex flex-col md:flex-row items-center">
-            <div class="md:w-1/2 mb-10 md:mb-0 z-10">
-                <h1 class="text-5xl font-extrabold mb-6 leading-tight">Vreme je za stil koji traje.</h1>
-                <p class="text-lg text-gray-300 mb-8">Od klasičnih mehaničkih remek-dela do najnovijih pametnih satova. Pronađite svoj idealan model u srcu Niša.</p>
-                <a href="proizvodi.html" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-md font-semibold transition inline-block">Istraži Kolekciju</a>
+    <header class="bg-white py-16 border-b border-gray-100">
+        <div class="container mx-auto px-6">
+            <div class="flex justify-between items-end mb-4">
+                <div>
+                    <h1 class="text-4xl font-extrabold tracking-tighter text-gray-950 mb-1">Izdvojeni Modeli</h1>
+                    <p class="text-gray-600 text-lg">Pogledajte najpopularnije modele ove sezone.</p>
+                </div>
+                <a href="proizvodi.html" class="text-[#1a365d] font-semibold flex items-center hover:underline">
+                    Vidi sve modele <i class="fa-solid fa-arrow-right ml-2 text-xs"></i>
+                </a>
             </div>
-            <div class="md:w-1/2 flex justify-center relative">
-                <div class="absolute w-80 h-80 bg-blue-600/20 rounded-full blur-3xl"></div>
-                <img src="logo.png" alt="Featured Watch" class="w-80 h-auto relative z-10 drop-shadow-[0_35px_35px_rgba(0,0,0,0.5)]">
+            <div class="mt-8 flex justify-center">
+                <img src="logo.png" alt="Featured Watches Header" class="h-40 opacity-10 drop-shadow-lg">
             </div>
         </div>
     </header>
 
-    <section class="py-16 container mx-auto px-6" id="shop">
-        <div class="flex justify-between items-end mb-12">
-            <div>
-                <h2 class="text-3xl font-bold">Izdvojeni Modeli</h2>
-                <p class="text-gray-500 mt-2">Pogledajte najpopularnije modele ove sezone.</p>
-            </div>
-            <a href="proizvodi.html" class="text-blue-600 font-bold hover:underline">Vidi sve modele →</a>
-        </div>
-        
+    <main class="container mx-auto px-6 py-16">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-white rounded-xl shadow-lg overflow-hidden group border border-gray-100">
-                <div class="h-64 bg-gray-200 flex items-center justify-center bg-[url('https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=400')] bg-cover bg-center">
-                    <div class="w-full h-full bg-black/10 group-hover:bg-black/0 transition"></div>
+            
+            <div class="bg-white rounded-3xl shadow-lg border border-gray-100 overflow-hidden group">
+                <div class="h-80 bg-[#e8e9eb] flex items-center justify-center p-8">
+                    <img src="https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=600" alt="Luksuzni Automatik" class="h-full w-auto object-contain transition-transform group-hover:scale-105">
                 </div>
-                <div class="p-6">
-                    <span class="text-xs font-bold text-blue-600 uppercase tracking-widest">Premium</span>
-                    <h3 class="text-xl font-bold mt-2">Luksuzni Automatik</h3>
-                    <p class="text-gray-600 mt-2">Preciznost koja definiše vaš karakter.</p>
-                    <div class="mt-6">
-                        <a href="proizvodi.html#automatski" class="block text-center bg-gray-900 text-white py-2 rounded hover:bg-blue-600 transition font-bold uppercase text-sm">Pogledaj ponudu</a>
+                <div class="p-8">
+                    <span class="text-xs font-bold text-gray-500 uppercase tracking-widest">PREMIUM</span>
+                    <h3 class="text-2xl font-bold mt-2 text-gray-950">Luksuzni Automatik</h3>
+                    <p class="text-gray-600 mt-3 text-base">Preciznost koja definiše vaš karakter.</p>
+                    <div class="mt-10">
+                        <a href="proizvodi.html#automatski" class="block text-center bg-[#1a365d] text-white py-4 rounded-xl hover:bg-[#2a4d7d] transition font-semibold text-lg uppercase tracking-wide">Pogledaj ponudu</a>
                     </div>
                 </div>
             </div>
 
-            <div class="bg-white rounded-xl shadow-lg overflow-hidden group border border-gray-100">
-                <div class="h-64 bg-gray-100 flex items-center justify-center bg-[url('https://images.unsplash.com/photo-1508685096489-7aac291ba597?auto=format&fit=crop&q=80&w=400')] bg-cover bg-center">
-                    <div class="w-full h-full bg-black/10 group-hover:bg-black/0 transition"></div>
+            <div class="bg-white rounded-3xl shadow-lg border border-gray-100 overflow-hidden group">
+                <div class="h-80 bg-[#16181b] flex items-center justify-center p-8 relative overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1508685096489-7aac291ba597?q=80&w=600" alt="Smart Edition" class="h-full w-auto object-contain transition-transform group-hover:scale-105 z-10">
+                    <div class="absolute inset-0 opacity-10 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC40Ij48cGF0aCBkPSJNMTAgMTBoMjB2MjBIMTB6TTAgMGgyMHYyMEgwek0yMCAyMGgyMHYyMEgyMHoiLz48L2c+PC9nPjwvc3ZnPg==')]"></div>
                 </div>
-                <div class="p-6">
-                    <span class="text-xs font-bold text-green-600 uppercase tracking-widest">Tehnologija</span>
-                    <h3 class="text-xl font-bold mt-2">Smart Edition</h3>
-                    <p class="text-gray-600 mt-2">Budite povezani u svakom trenutku.</p>
-                    <div class="mt-6">
-                        <a href="proizvodi.html#pametni" class="block text-center bg-gray-900 text-white py-2 rounded hover:bg-blue-600 transition font-bold uppercase text-sm">Pogledaj ponudu</a>
+                <div class="p-8">
+                    <span class="text-xs font-bold text-[#b89b72] uppercase tracking-widest">TEHNOLOGIJA</span>
+                    <h3 class="text-2xl font-bold mt-2 text-gray-950">Smart Edition</h3>
+                    <p class="text-gray-600 mt-3 text-base">Budite povezani u svakom trenutku.</p>
+                    <div class="mt-10">
+                        <a href="proizvodi.html#pametni" class="block text-center bg-[#1a365d] text-white py-4 rounded-xl hover:bg-[#2a4d7d] transition font-semibold text-lg uppercase tracking-wide">Pogledaj ponudu</a>
                     </div>
                 </div>
             </div>
 
-            <div class="bg-white rounded-xl shadow-lg overflow-hidden group border border-gray-100">
-                <div class="h-64 bg-gray-200 flex items-center justify-center bg-[url('https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&q=80&w=400')] bg-cover bg-center">
-                    <div class="w-full h-full bg-black/10 group-hover:bg-black/0 transition"></div>
+            <div class="bg-white rounded-3xl shadow-lg border border-gray-100 overflow-hidden group">
+                <div class="h-80 bg-[#d8c7b8] flex items-center justify-center p-8">
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=600" alt="Retro Mehanički" class="h-full w-auto object-contain transition-transform group-hover:scale-105">
                 </div>
-                <div class="p-6">
-                    <span class="text-xs font-bold text-amber-600 uppercase tracking-widest">Klasika</span>
-                    <h3 class="text-xl font-bold mt-2">Retro Mehanički</h3>
-                    <p class="text-gray-600 mt-2">Bez baterija, samo čista mehanika.</p>
-                    <div class="mt-6">
-                        <a href="proizvodi.html#ručni" class="block text-center bg-gray-900 text-white py-2 rounded hover:bg-blue-600 transition font-bold uppercase text-sm">Pogledaj ponudu</a>
+                <div class="p-8">
+                    <span class="text-xs font-bold text-[#b89b72] uppercase tracking-widest">KLASIKA</span>
+                    <h3 class="text-2xl font-bold mt-2 text-gray-950">Retro Mehanički</h3>
+                    <p class="text-gray-600 mt-3 text-base">Bez baterija, samo čista mehanika.</p>
+                    <div class="mt-10">
+                        <a href="proizvodi.html#ručni" class="block text-center bg-[#1a365d] text-white py-4 rounded-xl hover:bg-[#2a4d7d] transition font-semibold text-lg uppercase tracking-wide">Pogledaj ponudu</a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </main>
 
-    <footer class="bg-white border-t py-12">
+    <footer class="bg-gray-950 text-gray-300 py-16">
         <div class="container mx-auto px-6 text-center">
-            <img src="logo.png" alt="Logo" class="h-16 mx-auto mb-4 opacity-80">
-            <div class="font-bold text-xl mb-1 uppercase tracking-widest">Časovničar</div>
-            <p class="text-gray-500 text-sm">NIŠ • SRBIJA</p>
-            <div class="flex justify-center space-x-6 mt-8">
-                <a href="#" class="text-gray-400 hover:text-pink-600 transition"><i class="fa-brands fa-instagram text-2xl"></i></a>
-                <a href="#" class="text-gray-400 hover:text-blue-700 transition"><i class="fa-brands fa-facebook text-2xl"></i></a>
-                <a href="#" class="text-gray-400 hover:text-sky-500 transition"><i class="fa-brands fa-x-twitter text-2xl"></i></a>
+            <img src="logo.png" alt="Footer Logo" class="h-14 mx-auto mb-5 opacity-40">
+            <div class="font-bold text-2xl uppercase tracking-tighter text-white">Časovničar</div>
+            <p class="text-gray-500 text-sm mt-1">Svet satova - Niš • Srbija</p>
+            <div class="flex justify-center space-x-6 mt-10 text-gray-500 text-2xl">
+                <a href="#" class="hover:text-white"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="hover:text-white"><i class="fa-brands fa-facebook"></i></a>
             </div>
-            <p class="mt-10 text-gray-400 text-[10px] uppercase tracking-widest">&copy; 2026 Časovničar. Sva prava zadržana.</p>
+            <p class="mt-12 text-gray-600 text-[10px] uppercase tracking-widest">&copy; 2026 Časovničar. Sva prava zadržana.</p>
         </div>
     </footer>
 
